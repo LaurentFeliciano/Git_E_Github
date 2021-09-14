@@ -120,3 +120,43 @@ cd:
 
     #Comando:
     cd <nome do projeto>
+
+Criando seu primeiro repositório:
+
+    1.Crie e abra uma pasta na área de trabalho 
+    2.Clique com o botão direito no espaço vazio e clique em "abrir com <editor de código que você utiliza>"
+    3.Crie um novo arquivo como "Readme.md"
+    #Ele será utilizado para descrever o repositório e sua utilidade, como uma instrução
+    4.Volte novamente para dentro da pasta e clique com o botão direito, vá em "Git Bash here" e digite em ordem os comandos abaixo
+    Ordem:
+
+    git config --global user .email "Digite aqui o seu email"
+    git config --global user .email "Digite aqui o seu email"
+    git init
+    git branch -m "main"
+    git add <nome do arquivo que você quer enviar para a área de standing>
+    git status
+    git commit -m "<nome do seu commit>"
+    git remote add origin <link do seu repositório do git hub> -
+    git push -u origin main
+
+    Pronto! Você fez o seu primeiro commit!
+
+Atualizando seu primeiro repositório:
+
+    clear
+    git add .
+    git commit -m "Novo commit"
+    git push origin main
+
+Criando uma branch:
+
+    git checkout -b "Nome da branch"
+    git add .
+    git commit -m "Nome do commit"
+    git push origin <nome da branch>
+
+Unindo a main com a branch:
+
+    git merge <nome da branch>
+    git push origin main
